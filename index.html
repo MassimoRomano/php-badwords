@@ -15,8 +15,10 @@
             <div class="card-body">
                 <form class="d-flex flex-column align-items-center" method="get" action="server.php">
                     <label for="para">Paragrafo</label>
-                    <input style="width: 450px" class="my-3" type="text" id="paragrafo" name="paragrafo"
-                        placeholder="Inserisci testo">
+                    <textarea style="width: 450px" class="my-3" type="text" id="paragrafo" name="paragrafo"
+                        placeholder="Inserisci testo"></textarea>
+                    <label for="bad-word">Parola da censurare:</label><br>
+                    <input type="text" id="parola" name="censura"><br><br>
                     <button style="width: 200px;" type="submit" class="btn btn-dark">Submit</button>
                 </form>
             </div>
